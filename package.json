@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.10.0",
+    "@aptos-labs/wallet-adapter-react": "^2.1.8"
+  }
+}

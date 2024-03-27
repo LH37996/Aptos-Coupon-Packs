@@ -1,0 +1,18 @@
+[package]
+name = "untitled1"
+version = "1.0.0"
+authors = []
+
+[addresses]
+#todolist_addr = "0x8f9d767fa5cdaaa256002bf3e01be1c62305eba28c12ae06f34b08d94cdb1918"
+todolist_addr = "0x6d651c2909aec0611a82d46a21817a6de24f038c7d7d03e8026db8f07d4a3d2d"
+
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
